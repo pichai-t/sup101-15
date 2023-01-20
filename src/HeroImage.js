@@ -1,4 +1,5 @@
 import React from "react";
+import { Background } from "react-imgix";
 
 export const HeroImage = () => (
 <div style={{backgroundColor:"#EE7879", width: "100%", borderRadius: "4%"}}> 
@@ -10,7 +11,7 @@ export const HeroImage = () => (
                   alignSelf: 'flex-start', borderRadius: "4%"}}>
       <div style={{textAlign:"center"}} >          
         <h1 style={{ textDecoration: "underline"}} > Condo for rent: Supalai 101</h1>
-        <h3> Furnished: 1 Bedroom - 2nd floor (42 sqm) </h3>
+        <h3> Furnished: 1 Bedroom - 2nd floor (42 sqm) - I2 building </h3>
         <h4> Bed, Closet, Sofa(bed), Flat TV </h4>
         <h4> 2 Air-Conditions, Microwave,</h4>
         <h4> Refrigerator, Table/Chairs, Curtains, etc. </h4>

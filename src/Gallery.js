@@ -1,4 +1,5 @@
 import React from "react";
+import Imgix from "react-imgix";
 
 const data = [
   { id: 1,title: "Bedroom", img: require("./images/1.jpg")},
