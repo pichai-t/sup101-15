@@ -1,0 +1,38 @@
+{
+  "name": "react-imgix-responsive-gallery",
+  "version": "0.0.0",
+  "homepage": "https://pichai-t.github.io/sup101-15",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^12.7.8",
+    "prop-types": ">=15.5.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "description": "A responsive image gallery built with react-imgix."
+}
